@@ -1,1 +1,54 @@
-jvn-repo-2 - Content of the blob - rd403rw5jx
+[OLD][JMeter API with GitHub] 
+
+
+0. Getting started with the REST API
+	- Setup JMeter test plan
+	- Setup two simple request
+		Hello World /zen
+		Chris Wanstrath's profile (CEO GitHub) /users/defunkt
+	- Check result
+1. Setup personal access token (PAT) and run the first Authenticated GitHub API with JMeter
+	- How to get PAT
+	- Setup and run request with that token
+		Get User Info /user
+2. FIRST POST API (create repo)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. setup GET API non authen -> chỉ cần setup + run thấy kết quả như get started này https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api
+2. setup cái personal token https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token rồi run FIRST GET API cần AUTHEN
+3. FIRST POST API (create repo)
+4.1 FIRST PATCH API (update repo)
+4.2 FIRST PUT API (update repo)
+5. FIRST DELETE API (delete repo)
+6. Upload file https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
+7. Update File
+
+
+
+6.1 FIRST integrate APIs: create / update / and delete -> using Regex
+6.2 Same 6.1 nhưng dùng JSON PATH
+7. Random data 
+8. Using Assertion to make test result more reliable
+9. Using CSV for multiple users/data
+10. ...
+11. If/Else scenario --> đang nghĩ nên làm kịch bản nào
+12. Go To scenario --> cần tìm kịch bản good
+...
+19.
+20. Easy steps for storing data
+21. Data preparation
